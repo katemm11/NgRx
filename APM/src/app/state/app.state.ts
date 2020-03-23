@@ -1,7 +1,7 @@
-import { ProductState } from "../products/state/product.reducer";
+//don't import ProductState because that feature is lazy loaded
+
 import { UserState } from "../user/state/user.reducer";
 
 export interface State {
-  products: ProductState;
   user: UserState;
 }

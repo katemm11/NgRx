@@ -13,8 +13,7 @@ export class LoginComponent implements OnInit {
   pageTitle = "Log In";
   errorMessage: string;
 
-  maskUserName = false;
-  s;
+  maskUserName: boolean;
 
   constructor(
     private authService: AuthService,
